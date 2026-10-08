@@ -2,15 +2,16 @@
 
 **Turn one useful discovery into more opportunities you can actually use.**
 
-Version 0.1.0-beta.2.
+Version 0.1.0-beta.3.
 
 ## Platform and tool requirements
 
-**Designed for Codex. Browser/computer control is optional for this release.**
+**An assistant-independent research method. Codex and computer control are not required.**
 
 This repository provides instructions for an AI assistant. Installing it does not install an app or add research tools.
 
-- **Host:** Codex with skills support. The method can be read by other assistants, but their native compatibility has not been tested.
+- **Use with an assistant:** Give it [SKILL.md](SKILL.md) and your topic or discovery. The method does not depend on a particular assistant.
+- **Packaged installation:** Codex installation instructions and UI metadata are included for convenience. Native installation and behavior in other assistants have not been tested.
 - **Research:** Live search or browsing tools are needed to verify current offers, policies, costs, and eligibility. Interactive computer control is not inherently required.
 - **Without live research:** The assistant can reason from supplied material and identify leads, while clearly marking what remains unverified.
 - **Models:** One assistant is enough. A second researcher is optional; this release does not require a Claude account or the author's personal browser setup.
@@ -50,7 +51,11 @@ See [two recorded research demonstrations](EXAMPLES.md), with actual prompts, ou
 and source checks. They demonstrate the method, not customer outcomes or a measured
 advantage over an ordinary prompt.
 
-## Install in Codex
+## Use without installing
+
+Give [SKILL.md](SKILL.md) to your assistant and ask it to follow the method for your topic or discovery. The `$similar` invocation below is for environments where the skill has been installed; plain-language instructions do not require that shortcut.
+
+## Optional: install in Codex
 
 Download this repository's files into a folder named `similar`. Place that folder
 in your personal skills directory: `$CODEX_HOME/skills` when configured, otherwise
