@@ -1,0 +1,4 @@
+interface:
+  display_name: "Similar"
+  short_description: "Find opportunities from a topic or discovery"
+  default_prompt: "Use $similar to explore this topic or discovery for useful opportunities and applications of its underlying principles elsewhere."
