@@ -2,7 +2,18 @@
 
 **Turn one useful discovery into more opportunities you can actually use.**
 
-Version 0.1 beta.
+Version 0.1.0-beta.2.
+
+## Platform and tool requirements
+
+**Designed for Codex. Browser/computer control is optional for this release.**
+
+This repository provides instructions for an AI assistant. Installing it does not install an app or add research tools.
+
+- **Host:** Codex with skills support. The method can be read by other assistants, but their native compatibility has not been tested.
+- **Research:** Live search or browsing tools are needed to verify current offers, policies, costs, and eligibility. Interactive computer control is not inherently required.
+- **Without live research:** The assistant can reason from supplied material and identify leads, while clearly marking what remains unverified.
+- **Models:** One assistant is enough. A second researcher is optional; this release does not require a Claude account or the author's personal browser setup.
 
 Found something that worked? Similar explores other ways to get the same benefit,
 then looks for places where the underlying principle could work too. It checks the
