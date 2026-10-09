@@ -4,6 +4,14 @@
 
 Version 0.1.0-beta.3.
 
+## Prompt and result
+
+![Similar: a prompt about surplus food leads to opportunities in groceries, furniture and travel.](assets/prompt-result.jpg)
+
+*Summary of recorded research from 6 October 2026. The prompt is shortened for the picture; no purchases were made.*
+
+[Read the full prompt, result summary and original sources](DEMO.md).
+
 ## Platform and tool requirements
 
 **An assistant-independent research method. Codex and computer control are not required.**
