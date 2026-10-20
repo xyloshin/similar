@@ -2,7 +2,7 @@
 
 **Turn one useful discovery into more opportunities you can actually use.**
 
-Version 0.1.0-beta.3.
+Version 0.1.0-beta.4.
 
 ## Prompt and result
 
@@ -22,7 +22,7 @@ This repository provides instructions for an AI assistant. Installing it does no
 - **Packaged installation:** Codex installation instructions and UI metadata are included for convenience. Native installation and behavior in other assistants have not been tested.
 - **Research:** Live search or browsing tools are needed to verify current offers, policies, costs, and eligibility. Interactive computer control is not inherently required.
 - **Without live research:** The assistant can reason from supplied material and identify leads, while clearly marking what remains unverified.
-- **Models:** One assistant is enough. A second researcher is optional; this release does not require a Claude account or the author's personal browser setup.
+- **Assistant:** The skill runs with your current assistant and its available tools.
 
 Found something that worked? Similar explores other ways to get the same benefit,
 then looks for places where the underlying principle could work too. It checks the
@@ -45,17 +45,20 @@ For example, "Use $similar on public libraries in Singapore" starts an explorati
 without requiring a story about something you have already tried. You can also say
 "Use Similar on what we just found" when the context is already in the chat.
 
-The result is a few useful ideas explained in plain language, each covering:
+The result uses two clearly labelled groups: other ways to get the same benefit,
+then opportunities outside the original domain that use the same underlying principle.
+If no supported findings emerge for one group, the assistant says so. Each idea covers:
 
 - What you could gain.
 - When it applies, including important costs or conditions.
 - One next step and supporting sources where needed.
 
 Expect compact cards: a clear title, a short explanation, an example where useful,
-and a first step. Important catches sit with the relevant idea. You don't need to
+and a first step. Simplifying an existing answer preserves every distinct finding
+unless you request a shortlist or a correction makes one invalid. Important catches sit with the relevant idea. You don't need to
 understand the skill's research framework or specialist vocabulary.
 
-See [two recorded research demonstrations](EXAMPLES.md), with actual prompts, outputs,
+See [two recorded research demonstrations](EXAMPLES.md) from the earlier beta, with actual prompts, outputs,
 and source checks. They demonstrate the method, not customer outcomes or a measured
 advantage over an ordinary prompt.
 
@@ -79,14 +82,9 @@ assistant's skill support; cross-platform compatibility has not been tested here
 
 ## What it needs
 
-One assistant. No required API key, second AI subscription, scripts, or plugins.
+One assistant. No required API key, scripts, or plugins.
 Live research tools help verify current policies, offers, and other changing facts.
 Without them, the assistant should identify leads and clearly say what is unverified.
-
-Optional **thorough mode** asks for an independent second researcher if your
-environment provides one and its use is authorized. It compares findings and checks
-decisive claims. If no second researcher is available, Similar still works with one
-assistant and discloses the limitation.
 
 ## Why use a skill for this?
 
@@ -94,6 +92,10 @@ assistant and discloses the limitation.
 intended search explicit: same benefit, different mechanism; then same mechanism,
 different context. It also asks for evidence, qualifying conditions, and useful next
 steps instead of a list of loosely related ideas.
+
+At both levels, the assistant considers conventional routes, inventive alternatives,
+and routes enabled by special circumstances. The second group must leave the original
+domain; another investing tactic, for example, does not count as a connection outside investing.
 
 That is a design intention, not a proven performance advantage. Use the
 [comparison guide](EVALUATION.md) to test whether it improves your actual results.

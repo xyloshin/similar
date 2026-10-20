@@ -3,18 +3,38 @@
 No superiority claim is established by this package. The recorded examples demonstrate
 the design; they do not prove that the skill beats a simpler prompt.
 
+## v0.1.0-beta.4 update, 20 October 2026
+
+This revision incorporates the maintained personal skill's requirements for research
+outside the original domain, two output groups, all three research approaches at each
+level, preservation of distinct findings when simplifying, and clearer explanation
+and completion checks. The public version accepts broad-topic input and uses the
+current assistant and its available tools throughout.
+
+The instructions and package were checked for consistency. The recorded runs below
+predate this revision and were not rerun for beta.4. They are not behavioral validation
+of the new requirements. Clean installation and cross-assistant behavior remain untested.
+
+Useful next behavioral checks:
+
+- Start from an investing discovery and check that the second group contains supported
+  opportunities outside investing, or explicitly reports that none were established.
+- Ask to simplify a response and check that every distinct finding remains unless a
+  shortlist was requested or a withdrawal is explicitly explained.
+- Start from a broad topic and check that both research levels and all three approaches
+  inform the work without requiring an anecdote.
+
 ## Checks recorded for v0.1 beta
 
-On 6 October 2026, a fresh Codex agent applied the skill to three test cases. The
-maintainer reviewed the actual outputs against the supplied requests:
+The public package includes two selected test cases recorded on 6 October 2026.
+A fresh Codex agent applied the skill, and the maintainer reviewed the actual
+outputs against the supplied requests:
 
 - A broad topic after unrelated conversation: answered black-hat marketing generally,
   without redirecting to the earlier GitHub project or requiring a starting anecdote.
 - No topic or discovery: asked one short question instead of inventing a task.
-- A concrete discovery with unavailable thorough mode: continued with one assistant,
-  disclosed the missing independent pass, and respected a no-paid-tools constraint.
 
-See [complete inputs, responses, and limitations](evaluation/input-checks.md).
+See [inputs, complete responses, and limitations for these two cases](evaluation/input-checks.md).
 These checks had no live research. They establish observed behavior in those runs,
 not consistent performance across models. Some responses remain longer than others.
 The [recorded research demonstrations](EXAMPLES.md) separately exercise live sources:
@@ -56,9 +76,7 @@ Use Similar with this discovery and context: [insert the same complete case].
 ```
 
 Make SKILL.md available only in the skill condition. Preserve both complete outputs
-and the research sources. Repeat some cases to account for variation. If comparing
-thorough mode, give the baseline equivalent access to a second researcher and track
-the added time and cost.
+and the research sources. Repeat some cases to account for variation.
 
 ## Judge usefulness, not length
 
