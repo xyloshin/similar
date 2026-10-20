@@ -6,10 +6,6 @@ I made Similar for those moments when something works and you think, “What els
 
 **[Download the skill](https://github.com/xyloshin/similar/releases/download/v0.1.0-beta.4/similar-release.zip)** · Free · One AI assistant · Beta 0.1.0-beta.4
 
-![Similar: a surplus-food discovery leads to opportunities in groceries, furniture and travel.](assets/prompt-result.jpg)
-
-*A summary of a recorded research run from 6 October 2026. No purchases were made. [Read the full example](DEMO.md).*
-
 ## What it does
 
 Say you find a service selling surplus food cheaply. Similar looks for other ways to get that benefit, then asks where the same idea works outside food. That might lead to furniture a shop needs to clear, or cheaper vehicle rentals when a company needs a car moved to another branch.
